@@ -23,3 +23,6 @@ const divide = (a, b) => {
 };
 
 // 새로운 기능 추가
+const divide_premium = (a, b) => {
+  return a / b;
+};
