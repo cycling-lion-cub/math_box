@@ -21,3 +21,5 @@ const divide = (a, b) => {
   }
   return a / b;
 };
+
+// 새로운 기능 추가
