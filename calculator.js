@@ -16,6 +16,7 @@ const multiply = (a, b) => {
 // 나누기 함수
 const divide = (a, b) => {
   if (b === 0) {
+    // 분모가 0일때는 나누기 함수가 작동하는걸 차단
     throw new Error();
   }
   return a / b;
